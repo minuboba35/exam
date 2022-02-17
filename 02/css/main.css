@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  flex: 1;
+  height: 100vh;
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+}
+
+.login_wrapper {
+  flex: 1;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.top p {
+  color: #2d3748;
+}
+
+.top h2 {
+  font-size: 30px;
+  color: #1a202c;
+}
+
+.form_area form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_area p {
+  margin-bottom: 11px;
+}
+
+.form_area input[type="text"],
+.form_area input[type="password"] {
+  height: 50px;
+  margin-bottom: 11px;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+
+::placeholder {
+  color: #2d3748;
+}
+
+.login_help {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 17px;
+  margin-bottom: 27px;
+  font-size: 14px;
+}
+
+label {
+  color: #2d3748;
+}
+
+.login_help a {
+  color: #2c5282;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 162px;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 347px;
+  height: 50px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn_login {
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #04c35c;
+}
+
+.btn_google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #2d3748;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer a {
+  font-size: 14px;
+  color: #2b6cb0;
+}
